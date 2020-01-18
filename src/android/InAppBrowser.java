@@ -107,7 +107,7 @@ public class InAppBrowser extends CordovaPlugin {
     private static final String SHOULD_PAUSE = "shouldPauseOnSuspend";
     private static final Boolean DEFAULT_HARDWARE_BACK = true;
     private static final String USER_WIDE_VIEW_PORT = "useWideViewPort";
-    private static final String TOOLBAR_COLOR = "0075a3";
+    private static final String TOOLBAR_COLOR = "#0075a3";
     private static final String CLOSE_BUTTON_CAPTION = "closebuttoncaption";
     private static final String CLOSE_BUTTON_COLOR = "closebuttoncolor";
     private static final String LEFT_TO_RIGHT = "lefttoright";
@@ -695,7 +695,7 @@ public class InAppBrowser extends CordovaPlugin {
             if (leftToRightSet != null) {
                 leftToRight = leftToRightSet.equals("yes") ? true : false;
             }
-            String toolbarColorSet = "#0075a3";
+            String toolbarColorSet = TOOLBAR_COLOR;
             if (toolbarColorSet != null) {
                 toolbarColor = android.graphics.Color.parseColor(toolbarColorSet);
             }
