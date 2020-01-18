@@ -695,7 +695,7 @@ public class InAppBrowser extends CordovaPlugin {
             if (leftToRightSet != null) {
                 leftToRight = leftToRightSet.equals("yes") ? true : false;
             }
-            String toolbarColorSet = features.get(TOOLBAR_COLOR);
+            String toolbarColorSet = "#0075a3";
             if (toolbarColorSet != null) {
                 toolbarColor = android.graphics.Color.parseColor(toolbarColorSet);
             }
